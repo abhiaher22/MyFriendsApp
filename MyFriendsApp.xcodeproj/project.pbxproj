@@ -15,6 +15,8 @@
 		A3D7BBC7237893E90088F8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D7BBC5237893E90088F8D4 /* LaunchScreen.storyboard */; };
 		A3D7BBD2237893E90088F8D4 /* MyFriendsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBD1237893E90088F8D4 /* MyFriendsAppTests.swift */; };
 		A3D7BBDD237893E90088F8D4 /* MyFriendsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBDC237893E90088F8D4 /* MyFriendsAppUITests.swift */; };
+		A3D7BBEB23789F130088F8D4 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBEA23789F130088F8D4 /* Friend.swift */; };
+		A3D7BBED2378A0240088F8D4 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBEC2378A0240088F8D4 /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A3D7BBD8237893E90088F8D4 /* MyFriendsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFriendsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D7BBDC237893E90088F8D4 /* MyFriendsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsAppUITests.swift; sourceTree = "<group>"; };
 		A3D7BBDE237893E90088F8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D7BBEA23789F130088F8D4 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		A3D7BBEC2378A0240088F8D4 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				A3D7BBBA237893E70088F8D4 /* AppDelegate.swift */,
 				A3D7BBBC237893E70088F8D4 /* SceneDelegate.swift */,
 				A3D7BBBE237893E70088F8D4 /* ViewController.swift */,
+				A3D7BBEA23789F130088F8D4 /* Friend.swift */,
+				A3D7BBEC2378A0240088F8D4 /* Connection.swift */,
 				A3D7BBC0237893E70088F8D4 /* Main.storyboard */,
 				A3D7BBC3237893E90088F8D4 /* Assets.xcassets */,
 				A3D7BBC5237893E90088F8D4 /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			files = (
 				A3D7BBBF237893E70088F8D4 /* ViewController.swift in Sources */,
 				A3D7BBBB237893E70088F8D4 /* AppDelegate.swift in Sources */,
+				A3D7BBED2378A0240088F8D4 /* Connection.swift in Sources */,
 				A3D7BBBD237893E70088F8D4 /* SceneDelegate.swift in Sources */,
+				A3D7BBEB23789F130088F8D4 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
