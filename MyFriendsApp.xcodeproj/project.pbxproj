@@ -17,6 +17,9 @@
 		A3D7BBDD237893E90088F8D4 /* MyFriendsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBDC237893E90088F8D4 /* MyFriendsAppUITests.swift */; };
 		A3D7BBEB23789F130088F8D4 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBEA23789F130088F8D4 /* Friend.swift */; };
 		A3D7BBED2378A0240088F8D4 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBEC2378A0240088F8D4 /* Connection.swift */; };
+		A3D7BBEF2378BE590088F8D4 /* JSONDecoder-remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBEE2378BE590088F8D4 /* JSONDecoder-remote.swift */; };
+		A3D7BBF523791E6C0088F8D4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBF423791E6C0088F8D4 /* Alert.swift */; };
+		A3D7BBF723791EBB0088F8D4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7BBF623791EBB0088F8D4 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		A3D7BBDE237893E90088F8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D7BBEA23789F130088F8D4 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		A3D7BBEC2378A0240088F8D4 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		A3D7BBEE2378BE590088F8D4 /* JSONDecoder-remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder-remote.swift"; sourceTree = "<group>"; };
+		A3D7BBF423791E6C0088F8D4 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A3D7BBF623791EBB0088F8D4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +111,8 @@
 			children = (
 				A3D7BBBA237893E70088F8D4 /* AppDelegate.swift */,
 				A3D7BBBC237893E70088F8D4 /* SceneDelegate.swift */,
-				A3D7BBBE237893E70088F8D4 /* ViewController.swift */,
-				A3D7BBEA23789F130088F8D4 /* Friend.swift */,
-				A3D7BBEC2378A0240088F8D4 /* Connection.swift */,
+				A3D7BBF9237920730088F8D4 /* Model */,
+				A3D7BBF82379205E0088F8D4 /* Controller */,
 				A3D7BBC0237893E70088F8D4 /* Main.storyboard */,
 				A3D7BBC3237893E90088F8D4 /* Assets.xcassets */,
 				A3D7BBC5237893E90088F8D4 /* LaunchScreen.storyboard */,
@@ -132,6 +137,26 @@
 				A3D7BBDE237893E90088F8D4 /* Info.plist */,
 			);
 			path = MyFriendsAppUITests;
+			sourceTree = "<group>";
+		};
+		A3D7BBF82379205E0088F8D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3D7BBBE237893E70088F8D4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3D7BBF9237920730088F8D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3D7BBEE2378BE590088F8D4 /* JSONDecoder-remote.swift */,
+				A3D7BBEA23789F130088F8D4 /* Friend.swift */,
+				A3D7BBEC2378A0240088F8D4 /* Connection.swift */,
+				A3D7BBF423791E6C0088F8D4 /* Alert.swift */,
+				A3D7BBF623791EBB0088F8D4 /* Constant.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,10 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D7BBEF2378BE590088F8D4 /* JSONDecoder-remote.swift in Sources */,
 				A3D7BBBF237893E70088F8D4 /* ViewController.swift in Sources */,
+				A3D7BBF723791EBB0088F8D4 /* Constant.swift in Sources */,
 				A3D7BBBB237893E70088F8D4 /* AppDelegate.swift in Sources */,
 				A3D7BBED2378A0240088F8D4 /* Connection.swift in Sources */,
 				A3D7BBBD237893E70088F8D4 /* SceneDelegate.swift in Sources */,
+				A3D7BBF523791E6C0088F8D4 /* Alert.swift in Sources */,
 				A3D7BBEB23789F130088F8D4 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
